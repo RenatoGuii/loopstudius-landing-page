@@ -1,0 +1,25 @@
+.header {
+    background: url(../../assets/images/desktop/image-hero.jpg) center top no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.container-text {
+    padding-left: 12px;
+}
+
+.text-header {
+    margin-top: 2rem;
+    color: white;
+    border: 2px solid white;
+    height: 9.2rem;
+    width: 238.4px;
+}
+
+.text-header p {
+    margin: 0;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-family: "Josefin Sans";
+    padding: 10px 15px;
+}

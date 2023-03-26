@@ -1,0 +1,34 @@
+.navBar {
+    background-color: transparent;
+}
+
+ul {
+    width: 100%;
+    justify-content: end;
+}
+
+.navbar-brand {
+    font-family: 'Josefin Sans';
+    font-size: 1.5rem;
+    color: white !important; 
+    font-weight: bold;
+}
+
+.nav-link.active {
+    font-family: 'Josefin Sans';
+    font-size: 1rem !important;
+    margin: 0 0.5rem;
+    color: white !important; 
+}
+
+.nav-link.active:hover {
+    color: hsl(0, 0%, 55%) !important;
+}
+
+.list-button {
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+
