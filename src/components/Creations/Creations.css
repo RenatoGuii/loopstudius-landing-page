@@ -1,0 +1,130 @@
+.header-creations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-creations span {
+    font-family: "Josefin Sans";
+    font-size: 2.1rem;
+    padding-top: 7px;
+    text-transform: uppercase;
+}
+
+.buttonSeeAll {
+    background-color: white;
+    border: none;
+    font-family: "Alata";
+    font-size: 11px;
+    height: 1.7rem;
+    letter-spacing: 3px;
+    margin-top: 27px;
+    margin-right: 1px;
+    outline: 2px solid hsl(0, 0%, 55%);
+    text-transform: uppercase;
+    transition: 0.5s;
+    width: 6.5rem;
+}
+
+.buttonSeeAll:hover {
+    background-color: black;
+    color: white;
+    outline-color: black;
+    transition: 0.5s;
+}
+
+.creations {
+    margin-top: 3rem;
+}
+
+.row.creations div {
+    position: relative;
+    transition: 0.5s;
+}
+
+.row.creations div:hover .images-creations {
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+.row.creations div:hover h3 {
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.images-creations img {
+    filter: brightness(85%);
+    max-width: 100%;
+}
+
+.row.creations h3 {
+    color: hsl(0, 2%, 91%);
+    font-family: "Josefin Sans";
+    font-size: 2.5vw;
+    left: 14%;
+    position: absolute;
+    text-transform: uppercase;
+    top: 77%;
+}
+
+
+/* Mobile */
+@media (max-width: 576px) {
+    .row.creations h3 {
+        font-size: 6vw;
+        top: 45%;
+        left: 8%;
+    }
+}
+
+/* DESKTOP */
+/* SM */
+@media (min-width: 576px) {
+    .row.creations h3 {
+        font-size: 2rem;
+    }
+}
+
+/* MD */
+
+@media (min-width: 768px) {
+    .row.creations h3 {
+        font-size: 1.4rem;
+    }
+}
+
+/* LG */
+
+@media (min-width: 992px) {
+    .row.creations h3 {
+        font-size: 1.8rem;
+    }
+}
+
+/* XL */
+
+@media (min-width: 1200px) {
+    .header-creations span {
+        font-size: 2.5rem;
+    }
+    .buttonSeeAll {
+        margin-right: 5.8px;
+    }
+    .row.creations h3 {
+        font-size: 2rem;
+    }
+}
+
+/* XXL */
+
+@media (min-width: 1400px) {
+    .header-creations span {
+        font-size: 2.5rem;
+    }
+    .buttonSeeAll {
+        margin-right: 50px;
+    }
+    .row.creations h3 {
+        font-size: 2rem;
+    }
+}

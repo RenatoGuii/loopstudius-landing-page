@@ -62,7 +62,7 @@
 
     .text-description {
         box-sizing: border-box;
-        left: 42.16%;
+        left: 40.72%;
         padding: 4rem 0 0 4rem;
         position: absolute;
         top: 35.5%;
@@ -87,7 +87,7 @@
 @media (min-width: 992px) {
     .text-description {
         box-sizing: border-box;
-        left: 45.35%;
+        left: 44.2%;
         padding: 5rem 0 0 5rem;
         position: absolute;
         top: 38.5%;
@@ -112,7 +112,7 @@
 @media (min-width: 1200px) {
     .text-description {
         box-sizing: border-box;
-        left: 51.4%;
+        left: 49.87%;
         padding: 5rem 0 0 5rem;
         position: absolute;
         top: 43%;
@@ -137,10 +137,10 @@
 @media (min-width: 1400px) {
     .text-description {
         box-sizing: border-box;
-        left: 51.11%;
-        padding: 7rem 0 0 7rem;
+        left: 47.65%;
+        padding: 6rem 0 0 6rem;
         position: absolute;
-        top: 43.2%;
+        top: 45.7%;
     }
 
     .text-description h1 {
