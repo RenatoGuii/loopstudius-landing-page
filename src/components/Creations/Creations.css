@@ -32,6 +32,10 @@
     transition: 0.5s;
 }
 
+.buttonSeeAll.mobile {
+    display: none;
+}
+
 .creations {
     margin-top: 3rem;
 }
@@ -74,6 +78,19 @@
         font-size: 6vw;
         top: 45%;
         left: 8%;
+    }
+    .header-creations span {
+        margin: auto;
+    }
+    .buttonSeeAll {
+        display: none;
+    }
+    .buttonSeeAll.mobile {
+        display: block;
+        font-size: 17px;
+        height: 2.7rem;
+        margin: 2rem auto 0 auto;
+        width: 10rem;
     }
 }
 

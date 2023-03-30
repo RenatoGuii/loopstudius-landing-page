@@ -110,6 +110,7 @@ const Creations = () => {
           </div>
         </div>
       </div>
+      <button className="buttonSeeAll mobile">see all</button>
     </div>
   );
 };
