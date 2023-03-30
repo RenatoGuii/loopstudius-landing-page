@@ -1,4 +1,272 @@
 .footer {
     background-color: black;
-    margin-top: 10rem;
+    margin-top: 6rem;
+    padding: 1.5rem 0 1rem 0;
+}
+
+.brand-and-social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand {
+    color: white;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+}
+
+.socialIcons {
+    display: inline;
+}
+
+.socialIcons-mobile {
+    display: none;
+}
+
+.socialIcons svg {
+    color: white;
+    margin: 0 0.15rem 0.4rem 0.15rem;
+}
+
+.pinterest-icon {
+    font-size: 0.8rem;
+}
+
+.instagram-icon {
+    font-size: 1.1rem;
+}
+
+.nav-footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.nav-footer {
+    display: flex;
+    list-style-type: none;
+    width: 257px;
+}
+
+.nav-footer li a {
+    color: white;
+    font-family: "Alata";
+    font-size: 10px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.nav-footer li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.copyright {
+    color: hsl(0, 0%, 41%);
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .footer {
+        padding: 1.5rem 0 2rem 0;
+    }
+
+    .brand {
+        font-size: 22px;
+        margin: auto;
+    }
+
+    .socialIcons {
+        display: none;
+    }
+
+    .socialIcons-mobile {
+        display: block;
+        margin: 0 0.15rem 0.4rem 0.15rem;
+        text-align: center;
+    }
+
+    .socialIcons-mobile svg {
+        color: white;
+        margin: 1.5rem 0.2rem 0 0.2rem;
+    }
+
+    .facebook-icon {
+        font-size: 1.2rem;
+    }
+
+    .twitter-icon {
+        font-size: 1.3rem;
+    }
+
+    .pinterest-icon {
+        font-size: 1.1rem;
+    }
+
+    .instagram-icon {
+        font-size: 1.4rem;
+    }
+
+    .nav-footer-copyright {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .nav-footer {
+        flex-direction: column;
+        margin: auto;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .nav-footer li {
+        margin-top: 11px;
+    }
+
+    .nav-footer li a {
+        font-size: 12px;
+    }
+
+    .copyright {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+/* SM */
+@media (min-width: 576px) {
+    .copyright {
+        padding-top: 8px;
+    }
+}
+
+/* MD */
+
+@media (min-width: 768px) {
+    .copyright {
+        padding-top: 8px;
+    }
+}
+
+/* LG */
+
+@media (min-width: 992px) {
+    
+    .brand {
+        font-size: 25px;
+    }
+
+    .socialIcons svg {
+        margin-top: 0.69rem;
+    }
+
+    .facebook-icon {
+        font-size: 1.2rem;
+    }
+
+    .twitter-icon {
+        font-size: 1.2rem;
+    }
+
+    .pinterest-icon {
+        font-size: 1rem;
+    }
+
+    .instagram-icon {
+        font-size: 1.25rem;
+    }
+
+    .nav-footer {
+        width: 291px;
+    }
+
+    .nav-footer li a {
+        font-size: 12px;
+    }
+
+    .copyright {
+        font-size: 13px;
+    }
+}
+
+/* XL */
+
+@media (min-width: 1200px) {
+    .brand {
+        font-size: 25px;
+    }
+
+    .socialIcons svg {
+        margin-top: 0.69rem;
+    }
+
+    .facebook-icon {
+        font-size: 1.2rem;
+    }
+
+    .twitter-icon {
+        font-size: 1.2rem;
+    }
+
+    .pinterest-icon {
+        font-size: 1rem;
+    }
+
+    .instagram-icon {
+        font-size: 1.25rem;
+    }
+
+    .nav-footer {
+        width: 291px;
+    }
+
+    .nav-footer li a {
+        font-size: 12px;
+    }
+
+    .copyright {
+        font-size: 13px;
+    }
+}
+
+/* XXL */
+
+@media (min-width: 1400px) {
+    .brand {
+        font-size: 27px;
+    }
+    
+    .socialIcons svg {
+        margin-top: 0.48rem;
+    }
+
+    .facebook-icon {
+        font-size: 1.35rem;
+    }
+
+    .twitter-icon {
+        font-size: 1.35rem;
+    }
+
+    .pinterest-icon {
+        font-size: 1.1rem;
+    }
+
+    .instagram-icon {
+        font-size: 1.35rem;
+    }
+
+    .nav-footer {
+        width: 307px;
+    }
+
+    .nav-footer li a {
+        font-size: 13px;
+    }
+
+    .copyright {
+        font-size: 14px;
+    }
 }

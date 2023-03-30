@@ -3,22 +3,22 @@
 }
 
 ul {
-    width: 100%;
     justify-content: end;
+    width: 100%;
 }
 
 .navbar-brand {
+    color: white !important; 
     font-family: 'Josefin Sans';
     font-size: 1.5rem;
-    color: white !important; 
     font-weight: bold;
 }
 
 .nav-link.active {
+    color: white !important; 
     font-family: 'Josefin Sans';
     font-size: 1rem !important;
     margin: 0 0.5rem;
-    color: white !important; 
 }
 
 .nav-link.active:hover {
